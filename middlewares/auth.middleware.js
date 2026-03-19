@@ -39,7 +39,7 @@ const authorize = async ( req, res , next) => {
 
         // 7. Continue to the next middleware/route
         next();
-        console.log(user);
+        
     } catch (error) {
 
         // 8. Handle any errors (invalid token, expired token, etc.)
