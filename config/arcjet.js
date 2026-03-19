@@ -15,7 +15,8 @@ const aj = arcjet({
     detectBot({
       mode: "LIVE", 
       allow: [
-        "CATEGORY:SEARCH_ENGINE", 
+        "CATEGORY:SEARCH_ENGINE",
+        "POSTMAN", 
       ],
     }),
     // Create a token bucket rate limit. Other algorithms are supported.
