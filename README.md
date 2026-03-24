@@ -69,30 +69,30 @@ A production-ready Subscription Management System API built with Node.js, Expres
 ---
 
 ## 📂 Project Structure
-
+```
 subscription-tracker/
-├── config/ # Configuration files
-│ ├── env.js # Environment variables
-│ └── nodemailer.js # Email transporter setup
-├── controllers/ # Business logic
-│ ├── auth.controller.js
-│ ├── subscription.controller.js
-│ └── user.controller.js
-├── middlewares/ # Custom middleware
-│ └── auth.middleware.js # JWT verification
-├── models/ # Database models
-│ ├── user.model.js
-│ └── subscription.model.js
-├── routes/ # API routes
-│ ├── auth.routes.js
-│ ├── subscription.routes.js
-│ └── user.routes.js
-├── utils/ # Utility functions
-│ ├── send-email.js # Email service
-│ └── email-template.js # Email templates
-├── workflows/ # Upstash workflows
-│ └── reminder.workflow.js
-├── app.js # Express app setup
+├── config/                 # Configuration files
+│   ├── env.js             # Environment variables
+│   └── nodemailer.js      # Email transporter setup
+├── controllers/            # Business logic
+│   ├── auth.controller.js
+│   ├── subscription.controller.js
+│   └── user.controller.js
+├── middlewares/            # Custom middleware
+│   └── auth.middleware.js # JWT verification
+├── models/                 # Database models
+│   ├── user.model.js
+│   └── subscription.model.js
+├── routes/                 # API routes
+│   ├── auth.routes.js
+│   ├── subscription.routes.js
+│   └── user.routes.js
+├── utils/                  # Utility functions
+│   ├── send-email.js      # Email service
+│   └── email-template.js  # Email templates
+├── workflows/              # Upstash workflows
+│   └── reminder.workflow.js
+├── app.js                  # Express app setup
 └── package.json
 
 ```
